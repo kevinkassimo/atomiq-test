@@ -13,5 +13,4 @@ loader.load(path.resolve(__dirname , "./directory2"), "/d2");
 
 app.use('/', loader.router);
 
-console.log(app._router);
 app.listen(8080);
